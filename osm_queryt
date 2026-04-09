@@ -1,0 +1,3 @@
+--Scripti etsii koko Suomen OSM-datasta poi-free-tasolta kaikki Suomen Isku-myymälät
+
+select * from 'gis_osm_pois_free' where fclass = 'furniture_shop' and name like '%isku%';
